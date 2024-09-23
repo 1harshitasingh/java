@@ -1,6 +1,5 @@
-package com.company;
+package com.company.lecture1;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Add {
