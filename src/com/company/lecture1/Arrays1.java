@@ -12,7 +12,7 @@ public class Arrays1 {
             System.out.println(marks[3]);
             System.out.println(marks[4]);
 
-            // Displaying the Array (for loop)
+
             System.out.println("Printing using for loop");
             for(int i=0;i<marks.length;i++){
                 System.out.println(marks[i]);
