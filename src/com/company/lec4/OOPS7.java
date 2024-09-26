@@ -3,7 +3,7 @@ package com.company.lec4;
 class Circle {
     float radius;
 
-    public float area() {
+    public  float area() {
         return 3.14f * radius * radius;
     }
 

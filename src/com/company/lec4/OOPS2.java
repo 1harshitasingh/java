@@ -36,7 +36,7 @@ public class OOPS2 {
         E1.printDetails();
         E2.printDetails();
 
-        System.out.println("Salary of E1: " + E1.getSalary());
+        System.out.println( "Salary of E1: " +E1.getSalary());
         System.out.println("Salary of E2: " + E2.getSalary());
 
 
