@@ -9,10 +9,9 @@ class Employee {
             System.out.println("and my name is "+ name);
         }
 
-        public int getSalary(){
-            return salary;
+
         }
-    }
+
 
     public class OOPS1 {
         public static void main(String[] args) {
