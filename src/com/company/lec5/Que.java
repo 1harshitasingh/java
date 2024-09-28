@@ -13,9 +13,6 @@ class Base {
         this.x = x;
     }
 
-    public void printMe() {
-        System.out.println(" constructor");
-    }
 }
 
 class Derived extends Base {
