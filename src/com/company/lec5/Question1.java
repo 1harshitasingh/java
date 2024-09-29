@@ -4,7 +4,7 @@ package com.company.lec5;
 class A {
     public int a;
 
-    public int harry() {
+    public int ABC() {
         return 4;
     }
 
