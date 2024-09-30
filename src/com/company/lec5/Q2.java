@@ -17,7 +17,7 @@ interface Horn1 {
     void horn1();
 }
 
-class ACycle implements Bicycle1, Horn {
+class ACycle implements Bicycle1, Horn1 {
 
     void blowHorn() {
         System.out.println("horn");
@@ -42,7 +42,7 @@ class ACycle implements Bicycle1, Horn {
 
 public class Q2 {
     public static void main(String[] args) {
-        AvonCycle cy = new AvonCycle();
+        ACycle cy = new ACycle();
         cy.applyBrake(1);
 
         System.out.println(cy.a);
