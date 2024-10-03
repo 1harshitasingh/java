@@ -1,6 +1,5 @@
 package com.company.Lec6;
 
-import java.util.ArrayList;
 
 class Thread11 extends Thread {
     public void run() {
