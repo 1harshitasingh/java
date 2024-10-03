@@ -1,15 +1,16 @@
 package com.company.Lec6;
 
 
-class MyThr1 extends Thread{
-    public MyThr1(String name){
+class MyThr1 extends Thread {
+    public MyThr1(String name) {
         super(name);
     }
-    public void run(){
+
+    public void run() {
         int i = 0;
 
-        while(i<=500){
-           System.out.println("I am a thread");
+        while (i <= 500) {
+            System.out.println("I am a thread");
             System.out.println("Thank you: " + this.getName());
             i++;
         }

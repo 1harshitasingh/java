@@ -16,8 +16,8 @@ class Thr extends Thread {
 
 public class Threads2 {
     public static void main(String[] args) {
-        Thr t1=new Thr("John");
-        Thr t2=new Thr("Ron");
+        Thr t1 = new Thr("John");
+        Thr t2 = new Thr("Ron");
         System.out.println("The id of the thread t1 is " + t1.getId());
         System.out.println("The name of the thread t1 is " + t1.getName());
         System.out.println("The id of the thread t2 is " + t2.getId());
