@@ -6,11 +6,12 @@ class MyThr1 extends Thread{
         super(name);
     }
     public void run(){
-        int i = 34;
+        int i = 0;
 
-        while(true){
+        while(i<=500){
            System.out.println("I am a thread");
             System.out.println("Thank you: " + this.getName());
+            i++;
         }
 
     }
@@ -18,7 +19,7 @@ class MyThr1 extends Thread{
 
 public class Threads3 {
     public static void main(String[] args) {
-        // Ready Queue: T1 T2 T3 T4 T5
+
         MyThr1 t1 = new MyThr1("John");
         MyThr1 t2 = new MyThr1("Ron");
         MyThr1 t3 = new MyThr1("Don");
