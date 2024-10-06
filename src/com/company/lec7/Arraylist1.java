@@ -13,6 +13,7 @@ public class Arraylist1 {
             l1.add(4);
             l1.add(6);
             l1.add(5,5);
+         
 
 
             System.out.println(l1);
