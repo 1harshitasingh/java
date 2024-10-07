@@ -1,7 +1,7 @@
 package com.company.lec7;
 
   import java.util.ArrayList;
-    public class Arraylist2 extends Thread{
+    public class Arraylist2{
         public static void main(String[] args) {
 
             ArrayList<Integer> l1 = new ArrayList<>();
