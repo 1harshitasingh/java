@@ -14,7 +14,7 @@ public class PracticeQ5 {
         System.out.println(list);
 
 
-        list.set(0,0);
+        list.set(0, 0);
         System.out.println(list);
 
 
