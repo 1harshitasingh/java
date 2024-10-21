@@ -8,7 +8,7 @@ public class cat {
 
     public cat() {
 
-        this.name = "Unknown";
+      name = "Unknown";
 
         this.age = 0;
     }
