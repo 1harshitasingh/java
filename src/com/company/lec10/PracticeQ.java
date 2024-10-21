@@ -7,7 +7,7 @@ public class PracticeQ {
             greet(abcabc);
         }
 
-        static void greet(String naam) {
-            System.out.println(naam);
+        static void greet(String name) {
+            System.out.println(name);
         }
     }
