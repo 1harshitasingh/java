@@ -8,12 +8,9 @@ class Employee {
             System.out.println("My id is " + id);
             System.out.println("and my name is "+ name);
         }
+         }
 
-
-        }
-
-
-    public class OOPS1 {
+        public class OOPS1 {
         public static void main(String[] args) {
             System.out.println("This is our custom class");
             Employee E1 = new Employee();
